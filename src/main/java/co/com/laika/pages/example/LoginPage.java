@@ -1,4 +1,4 @@
-package co.com.laika.pages;
+package co.com.laika.pages.example;
 
 import co.com.laika.util.TestBase;
 import org.openqa.selenium.WebElement;

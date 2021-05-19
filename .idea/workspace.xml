@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc5657e8-033a-453a-823f-73cfee886e71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/AutomationLaikaWeb.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/AutomationLaikaWeb.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/AutomationLaikaWeb.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/laika/pages/AppPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/laika/pages/example/AppPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/laika/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/laika/pages/example/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/laika/util/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/laika/util/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/laika/stepDefinitions/AppSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/laika/stepDefinitions/example/AppSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/laika/testRunners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/laika/testRunners/example/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AutomationPractice.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/example/AutomationPractice.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/user/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/user/register.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/SparkReport/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SparkReport/Spark.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +61,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1sVEd41L0BVda5xd4kmuYLAbs0U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -74,7 +78,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/co/com/laika/stepDefinitions/user/login" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -84,16 +88,39 @@
       <recent name="C:\Users\Usuario\Documents\Automation Laika\src\main\java\co\com\laika\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Documents\automation-laika\src\test\resources\features\user" />
+      <recent name="C:\Users\Usuario\Documents\automation-laika\src\test\resources\features\example" />
       <recent name="C:\Users\Usuario\Documents\Automation Laika\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.LoginRunner">
+    <configuration name="LoginRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;co.com.laika.testRunners.user.login.LoginRunner&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="TestRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;co.com.laika.testRunners.TestRunner&quot;" />
+        <option name="scriptParameters" value="--tests &quot;co.com.laika.testRunners.example.TestRunner&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -111,6 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoginRunner" />
+        <item itemvalue="Gradle.TestRunner" />
         <item itemvalue="Gradle.TestRunner" />
       </list>
     </recent_temporary>

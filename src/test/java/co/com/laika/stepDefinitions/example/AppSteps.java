@@ -1,7 +1,7 @@
-package co.com.laika.stepDefinitions;
+package co.com.laika.stepDefinitions.example;
 
-import co.com.laika.pages.AppPage;
-import co.com.laika.pages.LoginPage;
+import co.com.laika.pages.example.AppPage;
+import co.com.laika.pages.example.LoginPage;
 import co.com.laika.util.TestBase;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -18,7 +18,7 @@ public class AppSteps extends TestBase {
 
     @Given("I launch the browser")
     public void i_launch_the_browser() {
-        TestBase.initialization();
+        TestBase.initialization("http://automationpractice.com/");
     }
 
     @When("I login with valid credentials")

@@ -24,7 +24,7 @@ public class TestBase {
         }
     }
 
-    public static void initialization() {
+    public static void initialization(String url) {
         String browserName = prop.getProperty("browser");
 
         if(browserName.equals("chrome")) {
@@ -35,6 +35,6 @@ public class TestBase {
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-        driver.get(prop.getProperty("url"));
+        driver.get(url);
     }
 }
