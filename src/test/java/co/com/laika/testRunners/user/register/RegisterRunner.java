@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources/features/example/AutomationPractice.feature"},
-        glue = {"co/com/laika/stepDefinitions"},
+        features = {"src/test/resources/features/user/register.feature"},
+        glue = {"co/com/laika/stepDefinitions/user/register"},
         plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         monochrome = true,
         dryRun = false

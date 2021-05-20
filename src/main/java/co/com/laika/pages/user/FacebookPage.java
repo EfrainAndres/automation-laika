@@ -27,7 +27,6 @@ public class FacebookPage extends TestBase {
 
     public FacebookPage ClicButtonFacebook() throws InterruptedException {
         driver.switchTo().frame(driver.findElement(By.xpath("/html/body/div[6]/div/div/div/form/a/div[4]/div/div/span/iframe")));
-        //WebElement fb = driver.findElement(By.css("_8jan"));//fb Like button
         Thread.sleep(10000);
         ButtonFacebook.click();
         driver.switchTo().defaultContent();
